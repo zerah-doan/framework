@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Daily Run Suite">
+	<!-- <test name="Client App Suite"> <classes> <class name="test.client.UC1" 
+		/> <class name="test.client.UC2_3" /> <class name="test.client.UC4_5" /> 
+		</classes> </test> -->
+	<test name="Backend App Suite">
+		<classes>
+			<class name="test.backend.UC55" />
+			<class name="test.backend.UC60" />
+			<class name="test.backend.UC65" />
+			<class name="test.backend.UC70" />
+			<class name="test.backend.UC75" />
+			<class name="test.backend.UC96" />
+			<class name="test.backend.UC97" />
+			<class name="test.backend.UCxx" />
+		</classes>
+	</test>
+</suite>

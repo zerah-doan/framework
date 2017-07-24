@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Daily Run Suite]">
+  <test name="Backend App Suite">
+    <classes>
+      <class name="test.backend.UC55"/>
+      <class name="test.backend.UC60"/>
+      <class name="test.backend.UC65"/>
+      <class name="test.backend.UC70"/>
+      <class name="test.backend.UC75"/>
+      <class name="test.backend.UC96"/>
+      <class name="test.backend.UC97"/>
+      <class name="test.backend.UCxx"/>
+    </classes>
+  </test> <!-- Backend App Suite -->
+  <test name="Backend App Suite(failed)">
+    <classes>
+      <class name="test.backend.UC60">
+        <methods>
+          <include name="UC60_AdvertisingUser"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC60 -->
+      <class name="test.backend.UC97">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="UC97_BE_Voucher"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC97 -->
+      <class name="test.backend.UC96">
+        <methods>
+          <include name="UC96_BE_Master_Data"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC96 -->
+      <class name="test.backend.UC70">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="UC70_ChannelProduct"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC70 -->
+      <class name="test.backend.UC75">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="UC70_TubeProduct"/>
+        </methods>
+      </class> <!-- test.backend.UC75 -->
+      <class name="test.backend.UC65">
+        <methods>
+          <include name="UC65_CatalogueUser"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC65 -->
+      <class name="test.backend.UCxx">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="UCxx_SubscriptionPackage"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.backend.UCxx -->
+      <class name="test.backend.UC55">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="UC55_BE_Admin_User"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.backend.UC55 -->
+    </classes>
+  </test> <!-- Backend App Suite(failed) -->
+</suite> <!-- Failed suite [Daily Run Suite] -->

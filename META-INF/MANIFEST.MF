@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ProAir
+Bundle-SymbolicName: ProAir
+Bundle-Version: 1.0.0.qualifier
+Export-Package: framework.action,
+ framework.config,
+ framework.device,
+ framework.driver,
+ test,
+ util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: ProAir
